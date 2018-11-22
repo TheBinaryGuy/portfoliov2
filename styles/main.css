@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+header {
+    background-image: url('/svg/BGDesktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 500px;
+}
+
+figure {
+    display: flex;
+    margin: 50px 0 0 50px;
+}
+
+figure figcaption {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 25px;
+    text-align: center;
+}
+
+figure figcaption h1 {
+    font-size: 32px;
+    font-weight: medium;
+    margin-bottom: 5px;
+}
+
+figure figcaption a, figure figcaption a:active, figure figcaption a:visited {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.profile figure img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile {
+    color: white;
+}
+
+.socials {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.socials a img {
+    height: 25px;
+    transition: all 0.5s ease-out;
+}
+
+.socials a img:hover {
+    filter: opacity(0.5);
+}
+
+#twitter {
+    margin: 0 50px;
+}
+
+main {
+    height: 100%;
+}
+
+.cta {
+    background-color: black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-bottom: 37px;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.cta:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.cta a, .cta a:active, .cta a:visited {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta a img {
+    padding: 10px 7.5px 10px 35px;
+}
+
+.cta a span {
+    padding: 10px 35px 10px 7.5px;
+    font-size: 26px;
+}
